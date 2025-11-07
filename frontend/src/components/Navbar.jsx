@@ -25,9 +25,7 @@ export default function Navbar() {
           );
         })}
       </div>
-      <button className="bg-cosmic-accent text-black px-5 py-2 rounded-xl font-semibold hover:shadow-glow transition">
-        Try Demo
-      </button>
+      {/* Removed "Try Demo" button */}
     </nav>
   );
 }
